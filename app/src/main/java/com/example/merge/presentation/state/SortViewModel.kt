@@ -20,7 +20,7 @@ class SortViewModel (
     init{
         for(i in 0 until 8) {
             listToSort.add(
-                (10..99).random()
+                (1..99).random()
             )
 
         }
